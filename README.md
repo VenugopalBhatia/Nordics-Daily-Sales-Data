@@ -1,7 +1,7 @@
 # Nordics Daily Sales Data
 Nordics Daily Sales Data consolidation from vendor portals and emails followed by mapping to SKU class data.
 
-The objective of the project was to automate the process of obtaining pharmaceutical sales data on a daily and weekly basis from various vendors such as Tamro, Pharmaview and IQVIA for the Nordics region (included data from Sweden, Denmark, Finland and Norway). 
+The objective of the project was to automate and schedule the process of obtaining pharmaceutical sales data on a daily and weekly basis from various vendors such as Tamro, Pharmaview and IQVIA for the Nordics region (included data from Sweden, Denmark, Finland and Norway) freeing up valuable analyst hours.
 
 Some of this data came in the form of emails from certain vendors, while for other vendors one was required to login to web portals and download the excel files post inputting requisite details. Since each of these vendors had custom formats, the data needed to be consolidated and standardised, following which certain calculations were performed and the data was mapped to specific tables in order to perform tasks such as flagging certain skus shipped to particular clients, appending county/district level information to sales entries, etc. This consolidated file was then uploaded to the clients SFTP server for further processing which finally concluded with addition of these sales to a centralised database and generation of a tableau dashboard to visualise the same.
 
